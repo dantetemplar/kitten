@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "kitten"
+version = "0.1.0"
+description = ""
+authors = ["Ruslan Bel'kov <ruslan.belckov@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^1.10.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
