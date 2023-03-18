@@ -5,10 +5,10 @@ import logging
 
 from aiogram.fsm.storage.memory import MemoryStorage
 
-from config import CONFIG
+from settings import SETTINGS
 from routes import default, kittens
 
-bot = Bot(token=CONFIG.TELEGRAM_API_TOKEN)
+bot = Bot(token=SETTINGS.TELEGRAM_API_TOKEN)
 dp = Dispatcher(storage=MemoryStorage())
 
 logging.basicConfig(level=logging.INFO)
